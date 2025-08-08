@@ -1,0 +1,6 @@
+# 用户自定义代码开始
+output_data1_df = input_data1_df
+
+# Write recipe outputs 写入输出数据集
+output_data1 = data_science.Dataset("unit_test_text_concat")
+output_data1.write_with_dataframe(output_data1_df)
